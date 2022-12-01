@@ -1,0 +1,481 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: red;
+    border-width: 0.5px;
+    border-style:soli;
+}
+
+body {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 87%;
+    height: 16vw;
+    gap: 13rem
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin: 0 .5rem;
+}
+
+header nav a {
+    color: #232851;
+    }
+
+header nav a:hover {
+    color: rgba(36, 46, 82, 0.6);
+    }
+
+header button {
+    display: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+.contact {
+    color: white;
+    background-color: #8B48BF;
+    padding: .9rem 2.8rem;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 8px 0px black;
+}
+
+.contact:hover {
+    background-color: rgba(139, 72, 191, 0.7);
+}
+
+/* Main - Section 1 */
+
+.banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 87%;
+    margin: auto;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.banner article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 33rem;
+    margin: 5rem 0;
+}
+
+.banner p:nth-child(1) {
+    font-weight: 700;
+    font-size: 50px;
+    text-align: right;
+}
+
+.banner p:nth-child(2) {
+    font-weight: 500; 
+    text-align: right;
+    margin: 2.5rem 0;
+    line-height: 26px;
+}
+
+.banner a {
+    color: white;
+    background-color: #8B48BF;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 2rem;
+}
+
+.banner a:hover {
+    background-color: rgba(139, 72, 191, 0.7);
+}
+
+/* Section 2.1 */
+
+.different {
+    display: flex;
+    flex-direction: column;
+}
+
+.different .backgroundViolet {
+    background-color: #8B48BF;
+}
+
+.different .backgroundViolet div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 87%;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 7%;
+}
+
+.backgroundViolet .tittle {
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+    width: 29rem;
+    margin: 3rem 0;
+}
+
+
+.different .description {
+    color: white;
+    font-weight: 500;
+    line-height: 26px;
+    width: 29rem;
+}
+
+/* Section 2.2 */
+
+.different .backgroundGray {
+    background-color: #FAFAFA;
+    padding: 3rem 0;
+}
+
+.different ol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 8%;
+}
+
+.different li {
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 1rem 0;
+    width: 35rem;  
+    gap: 4%;
+
+}
+
+.backgroundGray div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6%;
+    width: 100%;
+}
+
+.number {
+    color: white;
+    background-color: #8B48BF;
+    height: ;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+.backgroundGray .tittle {
+    font-size: 1rem;
+    font-weight: 700;
+    color: rgba(50, 56, 81, 1);
+    width: 100%;
+   
+}
+
+.backgroundGray .description {
+    font-weight: 500;
+    color: #B3B2B7;
+    line-height: 25px;
+    align-self: flex-end;
+    padding: .5rem 0 0rem;    
+}
+
+/* Section 3 */
+
+.best {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.best h2 {
+    color: #242E53;
+    margin: 5rem 0;
+}
+
+.cards {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color: rgba(250, 250, 250, 1);
+    width: 90vw;
+}
+
+.card1, .card2, .card3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.best img {
+    position: relative;
+    top: -35px
+}
+
+.best li h3 {
+    color:#232851;
+    font-size: 16px;
+    margin: 0 0 1rem;
+}
+
+.best li p {
+    color: #B3B2B7;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.best a {
+    color: white;
+    background-color: #8B48BF;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 2rem;
+    margin: 3rem 0;
+}
+
+.best a:hover {
+    background-color: rgba(139, 72, 191, 0.9);
+}
+
+/* Section 4 */
+
+.getToKnow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #8B48BF;
+    padding: 3rem;
+}
+
+.getToKnow p {
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    width: 27rem;
+    
+}
+
+.getToKnow a {
+    color: #8B48BF;
+    background-color: white;
+    padding: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 8px 0px black;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1E1E26;
+    padding: 3rem;
+}
+
+a {
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    height: 8rem;
+    width: 87%;
+}
+
+.logoFooter {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 8rem;
+}
+
+.logoFooter img {
+    width: 7rem;
+}
+
+.logoFooter ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoFooter ul a {
+    font-size: 18px;
+}
+
+.navs {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 35%;
+    
+}
+
+.nav1 ul li {
+    margin-bottom: .8rem;
+}
+
+.nav2 ul li {
+    margin-bottom: .8rem;
+}
+
+form{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+}
+
+.form input {
+    padding: 1rem 0;
+    padding-left: 1rem;
+    padding-right: 1.5rem;
+    border-radius: 2rem;
+    margin-right: .5rem;
+}
+
+.form button {
+    color: white;
+    background-color: #8B48BF;
+    padding: 1rem 1.5rem;
+    border-radius: 2rem;
+    box-shadow: 1px 1px 8px 0px black;
+}
+
+.form button:hover {
+    background-color: rgb(213, 159, 255, 0.7);
+}
+
+footer p {
+    width: 87%;
+    margin: auto;
+    text-align: end;
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-weight: 500;
+ }
+
+/* Media queries */
+
+@media (max-width: 480px) {
+
+    header button {
+        display: block;
+    }
+
+    header nav, .contact {
+        display: none;
+    }
+
+    .different .backgroundViolet {
+        background-color: #3CDDF3;
+        padding-bottom: 1.7rem;
+    }
+
+    .different .backgroundGray {
+        background-color: white;
+        padding: 0;
+    }
+
+    .backgroundGray div {
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 2rem 0 0 2rem;
+        display: flex;
+        align-self: flex-end;
+        width: 95%;
+    }
+
+    .backgroundGray .description {
+        width: 87vw;
+        margin: auto;
+        padding: 2.5rem 0 0;
+    }
+
+    .card1, .card3 {
+        display: none
+    }
+
+    .getToKnow, .getToKnow p {
+        background-color: #3CDDF3;
+        text-align: center;
+    }
+
+    .getToKnow a {
+        color: white;
+        background-color: #232C50;
+        margin-top: 3rem;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: column-reverse;
+        height: 20rem;
+        width: 100%;
+    }
+
+    .logoFooter {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        margin: auto;
+        width: 100%;
+    }
+
+    .logoFooter img {
+        align-self: center;
+        margin: 2rem 0 1rem;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+     .form input {
+        padding-right: 7rem;
+    }
+
+    .navs {
+        margin: 2rem 0 2rem;
+    }
+  }
