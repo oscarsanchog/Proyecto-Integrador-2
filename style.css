@@ -6,7 +6,7 @@
     padding: 0;
     border: red;
     border-width: 0.5px;
-    border-style:soli;
+    border-style:solid;
 }
 
 body {
@@ -365,6 +365,7 @@ form{
     display: flex;
     justify-content:end;
     align-items: center;
+    width: 100%;
 }
 
 .form input {
@@ -373,6 +374,7 @@ form{
     padding-right: 1.5rem;
     border-radius: 2rem;
     margin-right: .5rem;
+    width: 14rem;
 }
 
 .form button {
@@ -472,7 +474,8 @@ footer p {
     }
 
      .form input {
-        padding-right: 7rem;
+        width: 100%;
+        
     }
 
     .navs {
